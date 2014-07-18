@@ -65,8 +65,7 @@ module JSON
         "boolean"
       when String
         "string"
-      when Integer
-      when Float
+      when Integer, Float
         "number"
       else
         raise "Unknown Primitive Type for #{key}! #{value.class}"
