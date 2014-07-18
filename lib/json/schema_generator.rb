@@ -66,7 +66,6 @@ module JSON
       when String
         "string"
       when Integer
-        "integer"
       when Float
         "number"
       else
