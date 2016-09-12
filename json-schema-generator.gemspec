@@ -5,7 +5,7 @@ require 'json/schema_generator/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "json-schema-generator"
-  spec.version       = 'draft4'
+  spec.version       = JSON::SchemaGenerator.VERSION
   spec.authors       = ["Max Lincoln"]
   spec.email         = ["max@devopsy.com"]
   spec.description   = %q{A very basic json-schema generator}
