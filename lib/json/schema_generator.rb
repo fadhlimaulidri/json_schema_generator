@@ -61,7 +61,6 @@ module JSON
       else
         statement_group.add "\"type\": \"#{type}\""
       end
-      statement_group.add "\"required\": #{required}" if @version == DRAFT3
       # statement_group.add "\"oneOf\": [{\"type\": \"#{type}\"}, {\"type\": \"null\"}]"
       statement_group.add "\"default\": #{value.inspect}" if @defaults
     end
