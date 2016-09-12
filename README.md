@@ -43,7 +43,7 @@ JSON::SchemaGenerator.generate file, File.read(file), {:schema_version => 'draft
 
 JSON::SchemaGenerate has the following features or assumptions for generating "best-guess" schemas:
 
-* **Schema Versions**: Support draft3 and draft4 of json-schema.
+* **Schema Versions**: Support draft4 of json-schema.
 * **Options**:
   * **Defaults**: Can generate default values.
   * **Descriptions**: Can generate a description indicating where the schema came from.
