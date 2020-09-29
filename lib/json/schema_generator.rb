@@ -24,7 +24,7 @@ module JSON
 
       statement_group = StatementGroup.new
       statement_group.add "\"$schema\": \"http://json-schema.org/draft4/schema#\""
-      statement_group.add "\"description\": \"Generated from #{@name} with shasum #{Digest::SHA1.hexdigest raw_data}\""
+      statement_group.add "\"description\": \"Generated from json_schema_generator #rusteze\""
       case data
       when Array
         $stop = true

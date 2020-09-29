@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'json/schema_generator/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "json-schema-generator"
+  spec.name          = "json-schema-generator2"
   spec.version       = JSON::SchemaGenerator::VERSION
   spec.authors       = ["Max Lincoln"]
   spec.email         = ["max@devopsy.com"]
   spec.description   = %q{A very basic json-schema generator}
   spec.summary       = %q{A very basic json-schema generator}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/fadhlimaulidri/json_schema_generator"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
